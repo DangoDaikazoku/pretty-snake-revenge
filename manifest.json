@@ -1,0 +1,14 @@
+{
+  "name": "Pretty Snake Revenge",
+  "description": " Canvas based Mouse controled Classic snake game.",
+  "version": "2.1",
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "icons": {
+    "16": "16.png",
+    "128": "128.png"
+  }
+}

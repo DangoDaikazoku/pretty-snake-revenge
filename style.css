@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#reference {
+
+	position:relative; top:-450px; width:1007px; height:530px; border-style:solid; border-width:thick; border-color:#696; border-radius:15px;  z-index:0; opacity:0; background:	#333; visibility:hidden;		
+	
+	 -webkit-transition:
+      opacity 1.0s ease-in-out;
+	}
+
+#story_div {
+
+	width:100%; height:100%; background:#333; z-index:11; position:absolute; color:#999; left:0px; top:0px; 
+	
+	}
+.storytext{
+	
+	 font-family:'Comic Sans MS', cursive; font-size:20px; position:relative; top:-350px; opacity:0;
+		
+		-webkit-transition:
+     	 opacity 1.0s ease-in-out;
+}
+canvas {
+	
+	position:fixed;
+	top: 85px;
+	left:50px;
+	visibility:hidden;
+	
+	}
+	
+#story
+{
+	position:relative;
+	left:0px;
+	visibility:visible;
+	z-index:2;
+	width:1000px;
+	height:530px;
+	opacity:0.4;
+	
+	}
+	
+#static_comment {
+	position:absolute; width:100%; height:auto; left:0px; top:290px; font-size:22px; color:#69c; font-weight:bolder; opacity:0; text-align:center; font-family:"Comic Sans MS", cursive;
+	
+	 -webkit-transition:
+      opacity 1.0s ease-in-out;
+	
+	}
+#settings {
+	position:absolute; left:0px; top:0px; width:100%; height:100%; background:#666;; z-index:7; opacity:0.5; 
+	
+	
+}
+	
+#banner {
+	position:absolute;  background-color:#69C;  left: 20%; top: 150px; font-size:50px; font-family:'Comic Sans MS', cursive; color:#FFF;  border-radius:15px; border:solid; width:60%; opacity:0.8;	
+	}
+	
+#food {
+	opacity:0;
+	
+	 -webkit-transition:
+      opacity 0.3s ease-in-out;
+	  }
+
+#panel {
+	background:#CCC;
+	position:absolute;
+	left:30%;
+	width:500px;
+	height:260px;
+	top:200px;
+	z-index:10;
+	border-radius:12px;
+	border:inset;
+	border-color:#06F;
+	
+	 -webkit-transition:
+      opacity 0.8s ease-in-out;
+}
+
+
+
+#tut_tag{
+	color:#CCC;  width:40%; top:40%; position:absolute; left:30%; opacity:0; font-size:22px; font-family:"Comic Sans MS", cursive;
+		
+	 -webkit-transition:
+      opacity 3.0s ease-in-out;
+	}
+#tut_tag2 {
+	color:#CCC; border:outset; width:auto; top:60%; position:absolute; left:30%; opacity:0; font-family:"Comic Sans MS", cursive;
+		
+	 -webkit-transition:
+      opacity 1.0s ease-in-out;
+	}
+#high_score{
+	position:relative; top:220px; font-size:18px; font-weight:bold; color:#C93;
+	
+	}
+
+#start {
+	   width:20%; top:270px; border-color:#C96; position:relative;
+	
+	}
+
+#tutorial {
+		 width:20%; top:250px; border-color:#C96; position:relative; 
+	   	   
+	   }
+	   
+#multi {
+		  width:20%; top:290px; opacity:0.4; position:relative;
+	   	   
+	   }
+
+	   
+#immortal {
+	 
+	 width:20%; top:310px; border-color:#C96; position:relative;
+	
+	  }
+
+#submit {
+	
+	 width:20%; top:330px; border-color:#C96; position:relative; 
+	
+}
+
+.buton {
+	
+	 position:absolute;  color:#000; border-radius:8px; border:inset; width:20%; background:#CCC;opacity:0.7;
+	   cursor:pointer;
+	   border-color:#999;
+	 
+	 -webkit-transition:
+       background-color 0.5s ease-in-out,
+	   border-color 0.5s ease-in-out;
+	}
+	
+.buton:hover {
+	
+	 background:#693;
+ 	 border-color:rgba(193, 184, 0,0.5);
+	 
+	}
+	
+#intro {
+	-webkit-transition:
+	opacity 1.0s ease-in;
+}
+
